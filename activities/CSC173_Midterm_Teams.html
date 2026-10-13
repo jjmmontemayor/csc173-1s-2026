@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CSC173 Midterm Teams</title>
+<style>
+:root{--bg:#f6f7f9;--surface:#fff;--ink:#1b1f24;--muted:#5d6670;--line:#e2e5ea;--accent:#2f6fdb;--accent-soft:#e6eefc;--track:#eceff3;
+--top-bg:#e5f5ec;--top-ink:#17663c;--warn-bg:#fff2dc;--warn-ink:#8a5300;--id-bg:#eee9fb;--id-ink:#5134a5;--none-bg:#f1f1f1;--none-ink:#666}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111418;--surface:#1a1e24;--ink:#e8ebef;--muted:#9aa3ad;--line:#2b313a;--accent:#7aa7ff;--accent-soft:#1f2c45;--track:#2a3039;
+--top-bg:#173726;--top-ink:#8fdcae;--warn-bg:#3a2a10;--warn-ink:#f3c27a;--id-bg:#2a2340;--id-ink:#c4b5fd;--none-bg:#2a2a2a;--none-ink:#aaa}}
+:root[data-theme="dark"]{--bg:#111418;--surface:#1a1e24;--ink:#e8ebef;--muted:#9aa3ad;--line:#2b313a;--accent:#7aa7ff;--accent-soft:#1f2c45;--track:#2a3039;
+--top-bg:#173726;--top-ink:#8fdcae;--warn-bg:#3a2a10;--warn-ink:#f3c27a;--id-bg:#2a2340;--id-ink:#c4b5fd;--none-bg:#2a2a2a;--none-ink:#aaa}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 16px 48px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:13px}
+.bar-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin:0 0 16px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;font-size:12px}
+button{font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.card header{display:flex;align-items:baseline;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.card h2{font-size:17px;margin:0}
+.sz{color:var(--muted);font-size:13px}
+.avg{margin-left:auto;font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:2px 8px;border-radius:999px;font-variant-numeric:tabular-nums}
+ol{list-style:none;margin:0;padding:4px 0;flex:1}
+li{display:grid;grid-template-columns:1fr;gap:12px;align-items:center;padding:9px 16px}
+li+li{border-top:1px solid var(--line)}
+.nm{font-size:14px}
+.meta{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin-top:3px}
+.sid{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums;margin-right:2px}
+.badge{font-size:11px;padding:1px 7px;border-radius:999px;white-space:nowrap}
+.top{background:var(--top-bg);color:var(--top-ink)}
+.warn{background:var(--warn-bg);color:var(--warn-ink)}
+.id{background:var(--id-bg);color:var(--id-ink)}
+.none{background:var(--none-bg);color:var(--none-ink)}
+.ab{text-align:right}
+.prop{border-top:1px solid var(--line);padding:10px 16px 12px;background:var(--bg)}
+.pl{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:2px}
+.pt{font-size:14px;color:var(--muted);font-style:italic}
+@media (max-width:420px){.grid{grid-template-columns:1fr}}
+@media print{button{display:none}.card{break-inside:avoid}}
+</style></head>
+<body><div class="wrap">
+<h1>CSC173 Midterm Project Teams</h1>
+<p class="sub">41 students in 13 teams: 11 teams of three and 2 teams of four.</p>
+<div class="stats">
+<div class="stat"><b>13</b><span>teams</span></div>
+<div class="stat"><b>41</b><span>students</span></div>
+</div>
+<div class="grid"><section class="card"><header><h2>Team 1</h2><span class="sz">4 members</span></header><ol><li><div class="who"><div class="nm"><b>Corpuz</b>, Leonard John T.</div><div class="meta"><span class="sid">2023-3411</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Fantilanan</b>, Bryle Jared R.</div><div class="meta"><span class="sid">2023-0044</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Estrella</b>, Rene, Jr. C.</div><div class="meta"><span class="sid">2023-3418</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Quinlob</b>, Jazrel Xandrei R.</div><div class="meta"><span class="sid">2023-3984</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 2</h2><span class="sz">4 members</span></header><ol><li><div class="who"><div class="nm"><b>Saluta</b>, Juhanara M.</div><div class="meta"><span class="sid">2023-0167</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Serate</b>, Vidal I C.</div><div class="meta"><span class="sid">2023-0120</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Bolando</b>, Jan Atkinson O.</div><div class="meta"><span class="sid">2023-1864</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Bado</b>, Elia Fel P.</div><div class="meta"><span class="sid">2022-0427</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 3</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Jagonia</b>, Andrei H.</div><div class="meta"><span class="sid">2023-0241</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Cuajotor</b>, Zjann Henry T.</div><div class="meta"><span class="sid">2023-1949</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Pareja</b>, Allan Gregory D.</div><div class="meta"><span class="sid">2023-0493</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 4</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Nasayao</b>, Kim Gabriel A.</div><div class="meta"><span class="sid">2023-0002</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Baddie</b>, Husnie R.</div><div class="meta"><span class="sid">2023-0348</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Beira</b>, John-Ronan S.</div><div class="meta"><span class="sid">2023-0638</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 5</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Jandayan</b>, Vincee Ezekiel M.</div><div class="meta"><span class="sid">2023-0284</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Balbutin</b>, Neil Anthony P.</div><div class="meta"><span class="sid">2023-0783</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Tan</b>, Adrian Raye A.</div><div class="meta"><span class="sid">2021-0870</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 6</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Haganas</b>, Joshua Ray D.</div><div class="meta"><span class="sid">2023-0058</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Cejas</b>, Francis Nelson M.</div><div class="meta"><span class="sid">2023-1209</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Saladaga</b>, Carlo James C.</div><div class="meta"><span class="sid">2024-2819</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 7</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Huertas</b>, Sam Alexis G.</div><div class="meta"><span class="sid">2023-0282</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Villanueva</b>, Joshua Louise R.</div><div class="meta"><span class="sid">2023-0171</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Gamboa</b>, Ram Clyde S.</div><div class="meta"><span class="sid">2023-0473</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 8</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Alison</b>, Jann Kezia S.</div><div class="meta"><span class="sid">2023-0040</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Enario</b>, Sheldon Ed T.</div><div class="meta"><span class="sid">2023-1838</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Ybañez</b>, Kristelle Marie M.</div><div class="meta"><span class="sid">2022-1242</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 9</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Ermita</b>, Joaquin Mikel S.</div><div class="meta"><span class="sid">2023-0957</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Monsanto</b>, Andrey Gwynn N.</div><div class="meta"><span class="sid">2021-2028</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Maghuyop</b>, Bobeth Jr. B.</div><div class="meta"><span class="sid">2023-0246</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 10</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Daminar</b>, Vandyke M.</div><div class="meta"><span class="sid">2023-0360</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Macalangan</b>, Yusuf Ali M.</div><div class="meta"><span class="sid">2022-0138</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Danganan</b>, Kilmer Douglas Bernardo A.</div><div class="meta"><span class="sid">2023-1721</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 11</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Agan</b>, Bryan Miguel C.</div><div class="meta"><span class="sid">2023-0022</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Cuaton</b>, Marcus Miguel L.</div><div class="meta"><span class="sid">2023-1035</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Bollozos</b>, Rogelio Angelo C.</div><div class="meta"><span class="sid">2023-1341</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 12</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Geromo</b>, Johann Sebastian Y.</div><div class="meta"><span class="sid">2023-0238</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Mocsana</b>, Ajman L.</div><div class="meta"><span class="sid">2022-1014</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Dale</b>, Aeron Jay C.</div><div class="meta"><span class="sid">2023-0795</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section><section class="card"><header><h2>Team 13</h2><span class="sz">3 members</span></header><ol><li><div class="who"><div class="nm"><b>Ledesma</b>, Keane Pharelle B.</div><div class="meta"><span class="sid">2023-0079</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Tacang</b>, Karol Maeve L.</div><div class="meta"><span class="sid">2023-0107</span></div></div>
+</li><li><div class="who"><div class="nm"><b>Macalangan</b>, Muhammad Mustafa M.</div><div class="meta"><span class="sid">2023-0971</span></div></div>
+</li></ol><div class="prop"><span class="pl">Project proposal</span><span class="pt">To be submitted</span></div></section></div>
+</div>
+</body></html>
