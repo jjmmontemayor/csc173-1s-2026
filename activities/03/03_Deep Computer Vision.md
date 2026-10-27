@@ -38,7 +38,7 @@ This activity puts the Lecture 03 topics into practice on **photos you take your
 
 ## What to do
 
-1. **Open the notebook in Google Colab.** In Colab, choose *File → Open notebook → GitHub*, paste this repository's URL, and select `CSC173_Deep_Computer_Vision.ipynb`. Then choose *File → Save a copy in Drive* so you can edit it. Jupyter also works: run `pip install tensorflow pillow matplotlib`, put your photos in a `my_images/` folder and your dataset in a `my_dataset/` folder next to the notebook.
+1. **Open the notebook in Google Colab.** In Colab, choose *File → Open notebook → GitHub*, paste this repository's URL, and select `CSC173_Lecture03_Deep_Computer_Vision_Demo.ipynb`. Then choose *File → Save a copy in Drive* so you can edit it. Jupyter also works: run `pip install tensorflow pillow matplotlib`, put your photos in a `my_images/` folder and your dataset in a `my_dataset/` folder next to the notebook.
 2. **Upload your photos in Part 0** and set `MY_PICK` to your photo with strong edges. If no photos are found, the notebook uses a sample photo, and in Part 7 a flower dataset. Those are only so the code runs; your submission must use **your own** photos.
 3. **Fill in every cell marked `# TODO`.** The check lines (`Check: True`, `matches tf.nn.conv2d: True`) tell you whether your code is right. The notebook has seven parts:
    1. **Images are numbers:** shape, grayscale, flattening and the cost of a Dense layer.
@@ -59,7 +59,7 @@ Use your own CSC173 repository:
 student-csc173-repository/
 └── activities/
     └── 03/
-        ├── CSC173_Deep_Computer_Vision.ipynb   # your copy, run, with outputs saved
+        ├── CSC173_Lecture03_Deep_Computer_Vision_Demo.ipynb   # your copy, run, with outputs saved
         └── notes.md                                         # your photos, your dataset, and outside help
 ```
 
@@ -90,7 +90,7 @@ List any AI tools, websites or classmates you used, and for what. Write "None" i
 
 ## How to submit
 
-1. Commit and push `activities/lecture03/` to your repository.
+1. Commit and push `activities/03/` to your repository.
 2. Copy the **commit hash** of that push. On GitHub, open your repository, click the commit count (the clock icon), and copy the full hash of your latest commit. From a terminal, run `git log -1 --format=%H`.
 3. On MOLE, submit:
    - your repository URL, and
