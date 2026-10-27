@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Notebook** | `CSC173_Lecture03_Computer_Vision_Student.ipynb` (in this repository) |
+| **Notebook** | [`CSC173_Lecture03_Computer_Vision_Demo.ipynb`](https://github.com/jjmmontemayor/csc173-1s-2026/blob/main/activities/03/CSC173_Lecture03_Computer_Vision_Demo.ipynb) (in this folder) · [Open in Colab](https://colab.research.google.com/github/jjmmontemayor/csc173-1s-2026/blob/main/activities/03/CSC173_Lecture03_Computer_Vision_Demo.ipynb) |
 | **Mode** | Individual |
 | **Deadline** | **October 30, 2026, 11:59 PM (Philippine Time, UTC+8)** |
 | **Submit on Moodle** | Repository URL and commit hash |
