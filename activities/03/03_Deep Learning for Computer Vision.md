@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Notebook** | `CSC173_Lecture03_Computer_Vision_Student.ipynb` (in this repository) |
+| **Notebook** | [`CSC173_Deep Computer_Vision_Demo.ipynb`](https://github.com/jjmmontemayor/csc173-1s-2026/blob/main/activities/03/CSC173_Deep_Computer_Vision_Demo.ipynb) (in this folder) · [Open in Colab](https://colab.research.google.com/github/jjmmontemayor/csc173-1s-2026/blob/main/activities/03/CSC173_Deep_Computer_Vision_Demo.ipynb) |
 | **Mode** | Individual |
 | **Deadline** | **October 30, 2026, 11:59 PM (Philippine Time, UTC+8)** |
 | **Submit on Moodle** | Repository URL and commit hash |
@@ -38,7 +38,7 @@ This activity puts the Lecture 03 topics into practice on **photos you take your
 
 ## What to do
 
-1. **Open the notebook in Google Colab.** In Colab, choose *File → Open notebook → GitHub*, paste this repository's URL, and select `CSC173_Lecture03_Computer_Vision_Student.ipynb`. Then choose *File → Save a copy in Drive* so you can edit it. Jupyter also works: run `pip install tensorflow pillow matplotlib`, put your photos in a `my_images/` folder and your dataset in a `my_dataset/` folder next to the notebook.
+1. **Open the notebook in Google Colab.** In Colab, choose *File → Open notebook → GitHub*, paste this repository's URL, and select `CSC173_Deep_Computer_Vision.ipynb`. Then choose *File → Save a copy in Drive* so you can edit it. Jupyter also works: run `pip install tensorflow pillow matplotlib`, put your photos in a `my_images/` folder and your dataset in a `my_dataset/` folder next to the notebook.
 2. **Upload your photos in Part 0** and set `MY_PICK` to your photo with strong edges. If no photos are found, the notebook uses a sample photo, and in Part 7 a flower dataset. Those are only so the code runs; your submission must use **your own** photos.
 3. **Fill in every cell marked `# TODO`.** The check lines (`Check: True`, `matches tf.nn.conv2d: True`) tell you whether your code is right. The notebook has seven parts:
    1. **Images are numbers:** shape, grayscale, flattening and the cost of a Dense layer.
@@ -58,8 +58,8 @@ Use your own CSC173 repository:
 ```text
 student-csc173-repository/
 └── activities/
-    └── lecture03/
-        ├── CSC173_Lecture03_Computer_Vision_Student.ipynb   # your copy, run, with outputs saved
+    └── 03/
+        ├── CSC173_Deep_Computer_Vision.ipynb   # your copy, run, with outputs saved
         └── notes.md                                         # your photos, your dataset, and outside help
 ```
 
